@@ -1,30 +1,20 @@
 <template>
   <div id="app">
-    <ul>
-      <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/demo1">Demo1 Intro</router-link></li>
-      <li><router-link to="/demo2">Demo2 Event</router-link></li>
-      <li><router-link to="/demo3">Demo3 Data</router-link></li>
-      <li><router-link to="/demo4">Demo4 Computed</router-link></li>
-      <li><router-link to="/demo5">Demo5 Bindding</router-link></li>
-    </ul>
-    <router-view></router-view>
+   <Header/>
+   <router-view></router-view>
  </div>
 </template>
 
 <script>
+import Header from '@/components/layout/Header'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+      Header
+  }
 }
 </script>
 
 <style scoped>
-  ul{
-    margin:0;
-    padding:0;
-  }
-  li{
-    display: inline;
-    margin: 8px;
-  }
+
 </style>

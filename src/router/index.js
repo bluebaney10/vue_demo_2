@@ -6,6 +6,7 @@ import Demo2 from '../views/Demo2.vue'
 import Demo3 from '../views/Demo3.vue'
 import Demo4 from '../views/Demo4.vue'
 import Demo5 from '../views/Demo5.vue'
+import Demo6 from '../views/Demo6.vue'
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ const routes = [
     path: '/demo5',
     name: 'Demo5',
     component: Demo5
+  },
+  {
+    path: '/demo6',
+    name: 'Demo6',
+    component: Demo6
   }
 ]
 
