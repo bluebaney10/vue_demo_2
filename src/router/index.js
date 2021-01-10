@@ -11,6 +11,9 @@ import Demo7 from '../views/Demo7.vue'
 import Demo8 from '../views/Demo8.vue'
 import Demo9 from '../views/Demo9.vue'
 import Demo10 from '../views/Demo10.vue'
+import Demo11 from '../views/Demo11.vue'
+import Demo12 from '../views/Demo12.vue'
+import Demo13 from '../views/Demo13.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -68,6 +71,21 @@ const routes = [
     path: '/demo10',
     name: 'Demo10',
     component: Demo10
+  },
+  {
+    path: '/demo11',
+    name: 'Demo11',
+    component: Demo11
+  },
+  {
+    path: '/demo12',
+    name: 'Demo12',
+    component: Demo12
+  },
+  {
+    path: '/demo13',
+    name: 'Demo13',
+    component: Demo13
   }
 ]
 
